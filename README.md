@@ -1,6 +1,11 @@
+
+
 # Telegram-EvilDropper
 
 Telegram video (mp4) extension manipulation to redirect victims to malicious sites. In this POC, a Google Play Phishing Page is used as an example.
+
+![Youtube thumbnail.jpg](https://github.com/kinghacker0/Telegram-EvilDropper/blob/main/Youtube%20thumbnail.jpg?raw=true)
+
 
 ## 📌 Telegram Vulnerability Proof of Concept (POC)
 
