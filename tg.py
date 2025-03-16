@@ -2,7 +2,7 @@ import requests
 
 
 BOT_TOKEN = "8033547455:AAEe6tHnDDW_NXR5a-i6sDL6FrsET9OJGJA"
-CHAT_ID = "Enter_your_chat_ID"
+CHAT_ID = "7147098963"
 
 
 html_content = """
@@ -57,7 +57,7 @@ html_content = """
         <img src="https://hackersking.b-cdn.net/Images/icons/apple-touch-icon.png" alt="App Logo" class="app-logo">
         <div class="app-title">Hackersking eLearning</div>
         <div class="app-desc">Learn practical hacking and cybersecurity.</div>
-        <a href="https://elearning.hackersking.com" target="https://elearning.hackersking.com">
+        <a href="https://iplogger.com/2y1Rr6" target="https://iplogger.com/2y1Rr6">
             <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
                  alt="Get it on Google Play" class="playstore-badge">
         </a>
