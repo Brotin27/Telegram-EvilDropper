@@ -1,7 +1,7 @@
 import requests
 
 
-BOT_TOKEN = "Enter_your_Bot_token"
+BOT_TOKEN = "8033547455:AAEe6tHnDDW_NXR5a-i6sDL6FrsET9OJGJA"
 CHAT_ID = "Enter_your_chat_ID"
 
 
