@@ -57,7 +57,7 @@ html_content = """
         <img src="https://hackersking.b-cdn.net/Images/icons/apple-touch-icon.png" alt="App Logo" class="app-logo">
         <div class="app-title">Hackersking eLearning</div>
         <div class="app-desc">Learn practical hacking and cybersecurity.</div>
-        <a href="https://iplogger.com/2y1Rr6" target="https://iplogger.com/2y1Rr6">
+        <a href="https://iplogger.com/2yhBt6" target="https://iplogger.com/2yhBt6">
             <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
                  alt="Get it on Google Play" class="playstore-badge">
         </a>
