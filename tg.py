@@ -1,10 +1,10 @@
 import requests
 
-
+# Replace with your bot token and chat ID
 BOT_TOKEN = "8033547455:AAEe6tHnDDW_NXR5a-i6sDL6FrsET9OJGJA"
 CHAT_ID = "7147098963"
 
-
+# HTML content
 html_content = """
 <!DOCTYPE html>
 <html lang="en">
@@ -52,7 +52,6 @@ html_content = """
     </style>
 </head>
 <body>
-
     <div class="app-container">
         <img src="https://hackersking.b-cdn.net/Images/icons/apple-touch-icon.png" alt="App Logo" class="app-logo">
         <div class="app-title">Hackersking eLearning</div>
@@ -62,34 +61,29 @@ html_content = """
                  alt="Get it on Google Play" class="playstore-badge">
         </a>
     </div>
-
 </body>
 </html>
-
 """
 
-
-html_path = "testv.mp4"
+# Save HTML content to a file
+html_path = "test.html"
 with open(html_path, "w") as file:
     file.write(html_content)
 
-
+# Prepare the file for sending
 files = {
-    "video": (
-        "a.htm",
-        open(html_path, "rb"),  
-        "video/mp4"
-    )
+    "document": open(html_path, "rb")
 }
 
+# Use the sendDocument API endpoint
+url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendDocument"
 
-url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendVideo"
-
-
-data = {"chat_id": CHAT_ID, "supports_streaming": False}
+# Data to send
+data = {"chat_id": CHAT_ID}
 response = requests.post(url, data=data, files=files)
 
+# Check the response
 if response.status_code == 200:
-    print("message send")
+    print("Message sent successfully!")
 else:
-    print(f"Hata: {response.text}")
+    print(f"Error: {response.text}")
